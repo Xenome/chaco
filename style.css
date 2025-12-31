@@ -194,7 +194,20 @@ height: 380px;
     border-color: #888;
 }
 
+/* Footer */
 footer {
     margin-top: 40px;
     font-size: 0.9rem;
+}
+
+.footer-container {
+	max-width: 800px;
+	margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Pushes items to far left and right */
+    gap: 20px; /* Optional: adds space between the two columns */
+}
+
+.left-footer, .right-footer {
+    flex: 1; /* Optional: makes both columns equal width */
 }
