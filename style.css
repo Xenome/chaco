@@ -111,6 +111,17 @@ height: 380px;
     color: white;
 }
 
+.twocolumn-container {
+	margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Pushes items to far left and right */
+    gap: 20px; /* Optional: adds space between the two columns */
+}
+
+.left-col, .right-col {
+    flex: 1; /* Optional: makes both columns equal width */
+}
+
 
 /* Gallery Grid */
 .gallery-grid,  .gallery-grid2 {
