@@ -1,0 +1,31 @@
+img-comparison-slider {
+  visibility: hidden;
+}
+
+img-comparison-slider [slot='second'] {
+  display: none;
+}
+
+img-comparison-slider.rendered {
+  visibility: inherit;
+}
+
+img-comparison-slider.rendered [slot='second'] {
+  display: unset;
+}
+
+img-comparison-slider{
+    outline: none!important;
+    display:block;
+    --divider-width: 2px;
+    --divider-color:rgba(0,0,0,0.2);
+}
+
+*:focus {
+    outline: none;
+}
+
+img-comparison-slider.handle
+{
+  background:red!important;
+}
